@@ -1,0 +1,46 @@
+Examine the Running Processes:
+		
+	ps aux | grep -i [serachOptions]
+	example: 
+	ps aux | grep -i apt	//this will show processes associating apt
+	ps aux | grep -i dpkg	//this will show processes associating dpkg
+	
+
+Just for fun terminal commands:
+	sudo apt install cmatrix	[done]
+	cmatrix				[matrix animation]
+	
+	sudo apt install sl		[done]
+	sl				[train animation]
+	
+	while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done	[shows date]
+	
+	toilet smaple text		[turns text into ASCII chars]
+	
+	sudo dnf install espeak		[done]
+	espeak text			[text to speech]
+
+	
+
+	
+Open a directory in file explorer:
+
+	xdg-open .	//opens the current directory in file explorer (use sudo for admin)
+	
+	
+	
+Install software from a .deb file (using dpkg):
+	
+	sudo dpkg -i [.deb file]
+	
+Shutdown timer: 
+	shutown -h hh:mm	[time assignable]
+	shutdown -h n	[n = number of minutes]
+	
+	
+warp-cli (vpn like stuff):
+	warp-cli connect	[connect to 1.1.1.1 private network]
+	warp-cli disconnect	[disconnect]
+	warp-cli status
+	check speed at www.speedtest.net
+	
